@@ -17,13 +17,17 @@ package com.ms.bubblesort;
  * Average Case -> O(n^2)
  * Best Case -> O(n)
  * 
+ * Space
+ * -----
+ * O(n)
+ * 
  * @author Mandar.Shidhore
  *
  */
 public class BubbleSort2 {
 
 	public static void main(String[] args) {
-		int[] array = new int[] { 3, 7, 4, 4, 6, 5, 8 };
+		int[] array = new int[] { 2, 3, 4, 5, 10, 9, 8 };
 		int numberOfIterationsToSort = 0;
 		int numberOfSwaps = 0;
 		int numberOfPasses = 0;
